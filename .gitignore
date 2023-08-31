@@ -7,3 +7,4 @@ __pycache__/
 .pyc
 
 prod_settings.py
+/games_store/
