@@ -1,6 +1,5 @@
-../.idea
-../venv
-local_settings.py
+.idea
+venv
 __pycache__/
 */__pycache__/
 *.py[cod]
