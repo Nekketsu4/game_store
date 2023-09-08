@@ -68,7 +68,7 @@ class AdminActivasion(admin.ModelAdmin):
     readonly_fields = ('get_image',)
 
     def get_image(self, obj):
-        return mark_safe(f'<img src={obj.poster.url} width="120" height="60">')
+        return mark_safe(f'<img src={obj.poster.url if obj.poster else None} width="120" height="60">')
 
     get_image.short_description = 'Постер'
 

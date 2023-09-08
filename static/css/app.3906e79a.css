@@ -98,7 +98,7 @@ h6 {
 
 .header {
   padding: 20px 0 10px 0;
-  background: url(../img/header_bg2.418633b1.jpg);
+  background: url(/static/img/header_bg2.418633b1.jpg);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
@@ -116,7 +116,7 @@ h6 {
   display: block;
   width: 100px;
   height: 100px;
-  background-image: url(../img/logo.53e67355.png);
+  background-image: url(/static/img/logo.53e67355.png);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover
@@ -198,10 +198,10 @@ h6 {
   padding: 80px;
   flex: 1 1 auto;
   background-color: grey;
-  background: url(../img/bg.0ed65347.png);
+  background: url(/static/img/bg.0ed65347.png);
   background-repeat: no-repeat;
   background-position: top;
-  background-size: cover;
+  background-size: contain
 }
 
 .content-row {
@@ -452,7 +452,7 @@ h6 {
   background-color: #00a782
 }
 
-.back[data-v-8f07c594] {
+.back[data-v-93bd04ea] {
   width: 60px;
   height: 60px;
   display: block;
@@ -463,5 +463,6 @@ h6 {
   background-size: contain;
   right: 360px;
   top: 600px;
-  cursor: pointer
+  cursor: pointer;
+  opacity: .5
 }
